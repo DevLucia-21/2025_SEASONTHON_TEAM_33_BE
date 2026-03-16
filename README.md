@@ -1,5 +1,7 @@
 # essaily - AI Cover Letter Assistant
 
+<img src="docs/images/logo.png" width="180">
+
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
@@ -58,6 +60,35 @@
 
 ---
 
+## Service Screenshots
+
+### 자기소개서 작성
+
+<img src="docs/images/write-page.png" width="500">
+
+AI 도움과 기존 답변 추천 기능을 통해  
+사용자는 자기소개서를 보다 쉽게 작성할 수 있습니다.
+
+---
+
+### 자기소개서 피드백 요약
+
+<img src="docs/images/feedback-page.png" width="500">
+
+작성된 자기소개서를 분석하여  
+논리 흐름, 기업 적합도, 임팩트 등의 지표로 피드백을 제공합니다.
+
+---
+
+### 상세 피드백 분석
+
+<img src="docs/images/feedback-detail.png" width="500">
+
+AI가 구체적인 개선 방향을 제시하여  
+사용자가 자기소개서를 더욱 발전시킬 수 있도록 돕습니다.
+
+---
+
 ## User Flow
 
 ```
@@ -91,6 +122,8 @@ Archive에서 이전 답변 조회
 사용자는 채용 공고를 확인한 뒤 서비스에서 제공하는 자기소개서 문항에 대해 답변을 작성할 수 있습니다.    
 채용 공고 내용을 참고하여 자기소개서를 작성할 수 있도록 지원합니다.
 
+---
+
 ### 2. 기존 답변 추천
 
 사용자가 작성하려는 자기소개서 문항과 유사한 문항을 분석하여   
@@ -99,12 +132,16 @@ Archive에서 이전 답변 조회
 이를 통해 사용자는 이전 답변을 참고하거나 재활용하여   
 보다 효율적으로 새로운 자기소개서를 작성할 수 있습니다.
 
+---
+
 ### 3. 자기소개서 피드백
 
 작성한 자기소개서 답변에 대해
 잘한 점, 부족한 점, 개선 방향을 분석하여 피드백을 제공합니다.
 
 사용자는 피드백을 기반으로 자신의 답변을 개선할 수 있습니다.
+
+---
 
 ### 4. 자기소개서 아카이브
 
@@ -286,6 +323,14 @@ User
 
 ---
 
+## ERD
+
+<img src="docs/images/erd.png" width="800">
+
+서비스의 주요 도메인 간 관계를 나타낸 ERD입니다.
+
+---
+
 ## API Endpoints
 
 ### Recruitment API
@@ -425,7 +470,7 @@ Selenium 등 브라우저 기반 크롤러가 필요했고, 사이트별 크롤�
 이 저장소는
 **2025 SEASONTHON TEAM 33 프로젝트의 개인 fork 저장소**입니다.
 
-Original Repository
+Original Repository   
 [9oormthon-univ/2025_SEASONTHON_TEAM_33_BE](https://github.com/9oormthon-univ/2025_SEASONTHON_TEAM_33_BE)
 
 ---
